@@ -1,0 +1,60 @@
+@media only screen and (max-width : 758px){
+    .btn-outline-light, .btn-outline-success{
+        margin-top: 8px;
+        margin-left: 0 !important;
+    }
+}
+body{
+    background-image: url(bg1.gif);
+    background-size: contain;
+}
+.navbar-expand-lg{
+    border-radius: 25px;
+}
+.img{
+    -webkit-box-shadow: 0px 0px 5px 4px #fff; 
+    box-shadow: 0px 0px 5px 4px #fff;
+    border-radius: 5px;
+}
+.img2{
+    -webkit-box-shadow: 0px 0px 12px 8px #fff; 
+    box-shadow: 0px 0px 12px 8px #fff;
+    border-radius: 3px;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > .active > a{
+    color : #7F5A58;
+    font-size: small;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: medium;
+    font-weight: 300;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: #fff;
+}
+
+.card-body .card-title{
+    color: rgb(31, 27, 27);
+    font-family: 'Schoolbell', cursive;
+    font-size: xx-large;
+}
+
+body{
+    height: 100%;
+    overflow: auto;
+}
+body::-webkit-scrollbar{
+    width: 16px;
+    background: black;
+}
+body::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#DC143C);
+    border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,#16E2F5);
+}
